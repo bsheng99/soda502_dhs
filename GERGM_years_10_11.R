@@ -69,7 +69,7 @@ test1 <- gergm(formula,
               seed = 456,
               convergence_tolerance = 0.5,
               output_directory = outloc,
-              output_name = years_10_11)
+              output_name = "years_10_11")
 
 
 test1

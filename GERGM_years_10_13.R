@@ -41,7 +41,9 @@ test1 <- gergm(formula,
               downweight_statistics_together = TRUE,
               MCMC_burnin = 10000,
               seed = 456,
-              convergence_tolerance = 0.5)
+              convergence_tolerance = 0.5,
+              output_directory = outloc,
+              output_name = "years_10_13")
 
 
 test1
